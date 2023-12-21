@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """Script to handle all default RESTful API"""
 
