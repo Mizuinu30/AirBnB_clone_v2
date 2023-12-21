@@ -91,7 +91,6 @@ def post_review(place_id):
     return make_response(jsonify(instance.to_dict()), 201)
 
 
-
 @app_views.route('/reviews/<review_id>', methods=['PUT'], strict_slashes=False)
 @swag_from('documentation/reviews/put_reviews.yml', methods=['PUT'])
 def put_review(review_id):
