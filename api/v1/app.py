@@ -14,7 +14,7 @@ app.register_blueprint(app_views)
 
 
 # Create a CORS instance with permissive settings (for demonstration purposes)
-cors = CORS(app, resources={r"/api/*": {"origins": "0.0.0.0"}})
+cors = CORS(app, resources={r"/api/v1/*": {"origins": "*"}})
 
 
 @app.teardown_appcontext
@@ -31,4 +31,4 @@ def not_found(exception):
 
 if __name__ == "__main__":
     """Main"""
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5001)
