@@ -154,7 +154,9 @@ EOF  all  create  destroy  help  quit  show  update
 No known bugs at this time.
 
 ## Authors
-Juan Silva - [Github](https://github.com/Mizuinu30) / [X](https://twitter.com/Juanraplants)
+Juan Silva: Delivering innovative solutions and driving technical excellence in C, Python, JavaScript, SQL, and R. Holberton Coding School graduate with expertise in enhancing web app performance using AWS. Certifications in Computer Science and Google Data Analytics. Committed to lifelong learning and innovating sustainable, impactful solutions.
+[Email](juansilva.dvm@gmail.com) | [Linkedin](linkedin.com/in/juan-silva-rubio) | [GitHub](github.com/Mizuinu30)
+
 Diego Gonzales- [Github](https://github.com/daggzu) /
 
 Second part of Airbnb: Joann Vuong
